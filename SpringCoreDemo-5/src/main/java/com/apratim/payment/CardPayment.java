@@ -5,7 +5,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 
 @Component
-@Qualifier()
+@Qualifier("cardPayment")
 public class CardPayment implements PaymentService{
     @Override
     public void pay(){

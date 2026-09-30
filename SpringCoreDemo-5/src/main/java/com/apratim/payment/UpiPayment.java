@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 //@Primary
-@Qualifier()
+@Qualifier("upiPayment")
 public class UpiPayment implements PaymentService{
     @Override
     public void pay() {
